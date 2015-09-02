@@ -1,188 +1,144 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Telostat</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body id="page-top" class="index">
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container text-center">
-        <a class="navbar-brand" href="#page-top"><img src="img/logo.png" alt="Telostat" width="302" height="48" /></a>
+---
+layout: default
+---
+
+<header class="intro">
+    <div>
+      <h1 class="logo"><img src="{{ "/assets/logo.png" | prepend: site.baseurl }}" height="56" alt="{{ page.title }}" /></h1>
+
+      <h1>make sense of data</h1>
+      <h2>data-driven R&amp;D and technology incubator</h2>
+
+      <div class="btn-group btn-group-lg" role="group" aria-label="Call to Action">
+        <!-- <a href="#" class="btn btn-primary"><i class="fa fa-list"  ></i> See what we are up to</a> -->
+        <a href="mailto:info@telostat.com?subject=Let%27s+have+a+coffee" class="btn btn-warning"><i class="fa fa-coffee"></i> Let's chat over a coffee</a>
       </div>
-    </nav>
-
-    <!-- Header -->
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <img class="img-responsive" src="img/profile.png" alt="">
-            <div class="intro-text">
-              <span class="name">make sense of data</span>
-              <hr class="star-light">
-              <span class="skills">
-                <h2>Data Driven Technology, Research and Development</h2>
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2>WHAT WE DO</h2>
-            <hr class="star-primary">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <h3>Products</h3>
-
-            <p><a href="http://www.decafhub.com"><strong>decaf</strong></a> Portfolio &amp; Fund Management</p>
-            <p>recons Trade Reconciliation</p>
-            <p><a href="http://www.sherpafundstech.com"><strong>Optimal Risk Sizing</strong></a> <small><i>by Sherpa Funds</i></small></p>
-          </div>
-
-          <div class="col-md-4 text-center">
-            <h3>Technology</h3>
-
-            <p>Agile Software Solutions</p>
-            <p>Large-scale Systems</p>
-            <p>Low-latency Computing</p>
-          </div>
-
-          <div class="col-md-4 text-center">
-            <h3>Analytics</h3>
-
-            <p>Predictive Modeling</p>
-            <p>Real-time Optimization</p>
-            <p>Computational Simulation</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="success" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2>WHO WE ARE</h2>
-            <hr class="star-light">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-4 col-md-offset-2 text-center">
-            <p><a href="https://sg.linkedin.com/in/sezertolga" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a></p>
-            <h4>Co-Founder</h4>
-            <p>Tolga Sezer</p>
-          </div>
-
-          <div class="col-md-4 text-center">
-            <p><a href="https://sg.linkedin.com/in/vehbisinan" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a></p>
-            <h4>Co-Founder</h4>
-            <p>Vehbi Sinan Tunalioglu</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-center">
-      <div class="footer-above">
-        <div class="container">
-          <div class="row">
-            <div class="footer-col col-md-4">
-              <h3>Contact</h3>
-              <p>1 Fullerton Road #02-01</p>
-              <p>Singapore 049413</p>
-              <p>info@telostat.com</p>
-              <p>(+65) 6832 5186</p>
-            </div>
-            <div class="footer-col col-md-4">
-              <h3>About Telostat</h3>
-              <p>
-                Telostat is a technology and R&D services
-                company providing computational and
-                method-dependent solutions for data and
-                process-intensive businesses.
-              </p>
-            </div>
-            <div class="footer-col col-md-4">
-              <h3>Follow Us</h3>
-              <ul class="list-inline">
-                <li>
-                  <a href="https://twitter.com/telostat" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-below">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              Copyright &copy; Telostat Pte Ltd 2014-2015
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll visible-xs visible-sm">
-      <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
     </div>
+</header>
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+<div class="container first-band">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-8">
+      <h2>about us</h2>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+      <p style="text-align:justify;">
+        We are a Singapore-based data-driven R&D and technology
+        incubator and service provider. After a long and fruitful
+        journey started in 2010, Telostat is founded in 2014 by young
+        life-style entrepreneurs with strong academic and professional
+        backgrounds, Telostat is currently designing and implementing
+        its flag-ship
+        cloud-based <a href="http://www.decafhub.com/">financial
+        software platform</a> and carrying on bleeding
+        edge <a href="http://www.sherpafundstech.com">R&amp;D
+        projects</a>.
+      </p>
+    </div>
+  </div>
+</div>
 
-    <!-- Plugin JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+<div class="whatsup">
+  <div class="text-center">
+    <h2 class="knot">our expertise</h2>
+  </div>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>Financial Information &amp; Productivity</h4>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
+        <div>
+          We design and develop multi-tier, scalable software
+          architectures serving day-to-day needs of financial
+          institutions along their investment and business
+          processes. Built using modern web-technologies and online
+          analytical data processing techniques, our products and
+          solutions are responsive and
+          mobile-enabled. <a href="http://www.decafhub.com">Learn
+          More &raquo;</a>
+        </div>
 
-    <!-- Google Analytics -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-52786792-1', 'auto');
-      ga('send', 'pageview');
-    </script>
-  </body>
-</html>
+        <div style="margin-top:10px;">
+          <a href="{{ "/assets/decaf/dashboard.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/decaf/dashboard.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/decaf/asset_moves.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/decaf/asset_moves.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/decaf/consolidation.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/decaf/consolidation.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/decaf/plot1.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/decaf/plot1.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/decaf/trade2.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/decaf/trade2.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/decaf/report.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/decaf/report.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Algorithmic &amp; Automated Trading</h4>
+
+        <div>
+          From evolutionary computing techniques to modern structural
+          models, we design and implement fully/semi automated trading
+          applications. Our activities cover your needs in a
+          360-degrees fashion: Data Management, Research and
+          Backtesting Protocol, Signal Generation Algorithm, Position
+          Sizing and Accounting and Automated Execution.
+        </div>
+
+        <div style="margin-top:10px;">
+          <a href="{{ "/assets/algos/1.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/algos/1.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/algos/2.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/algos/2.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/algos/5.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/algos/5.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/algos/6.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/algos/6.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/algos/7.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/algos/7.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/algos/8.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/algos/8.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <h4>Business Intelligence &amp; Data Mining</h4>
+
+        <div>
+          We deliver business intelligence applications using suitable
+          machine learning techniques for data of any scale. Our
+          underlying platform is transparent and flexible providing
+          users with powerful research blueprint and executive &amp;
+          operational control. We cover the entire process from
+          ideation through process modelling to implementation and
+          integration.
+        </div>
+
+        <div style="margin-top:10px;">
+          <a href="{{ "/assets/mining/1.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/mining/1.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/mining/2.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/mining/2.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+          <a href="{{ "/assets/mining/3.png" | prepend: site.baseurl }}" data-lightbox="roadtrip">
+            <img src="{{ "/assets/mining/3.png" | prepend: site.baseurl }}" width="106" height="65" class="img-rounded">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
