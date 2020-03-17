@@ -1,0 +1,23 @@
+{
+  "name": "telostat",
+  "version": "1.0.0",
+  "description": "Telostat company website",
+  "main": "index.js",
+  "repository": "git@github.com:telostat/telostat.github.io.git",
+  "author": "alioguzhan <aoguzhanyildiz@gmail.com>",
+  "license": "Telostat",
+  "private": true,
+  "scripts": {
+    "start": "run-p watch:*",
+    "build": "run-p build:*",
+    "watch:html": "live-server ./public --port=5000 --no-browser",
+    "watch:scss": "yarn build:scss --watch",
+    "build:scss": "sass --no-source-map -s compressed ./styles/index.scss ./public/assets/content/theme/css/custom.css"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.19.1",
+    "sass": "^1.26.3"
+  }
+}
